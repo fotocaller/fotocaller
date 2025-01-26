@@ -35,7 +35,7 @@ const WhyFotoCaller = () => {
   }, []);
 
   return (
-    <div className="p-10 my-20">
+    <div className="p-10 my-10 md:my-20">
       <BulletPoint
         bulletColor="navy"
         textColor="navy"

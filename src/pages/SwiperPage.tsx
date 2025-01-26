@@ -1,14 +1,14 @@
 import BulletPoint from "../components/BulletPoint";
 import SliderContent from "../components/SliderContent";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Mousewheel, Pagination } from "swiper/modules";
+import { Mousewheel, Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
 
 const HorizontalScroll = () => {
   return (
-    <div className="bg-navy p-10 h-screen text-white">
+    <div className="bg-navy p-10 min-h-screen text-white swiper-page">
       <BulletPoint
         bulletColor="white"
         textColor="white"
@@ -20,11 +20,15 @@ const HorizontalScroll = () => {
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         // mousewheel={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Mousewheel, Pagination]}
+        modules={[Mousewheel, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>

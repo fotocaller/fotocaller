@@ -9,7 +9,9 @@ const Header = () => {
           FOTO<span className="text-navy">CALLER</span>
         </h3>
       </div>
-      <ContactUsBtn />
+      <div className="hidden md:block">
+        <ContactUsBtn />
+      </div>
     </header>
   );
 };

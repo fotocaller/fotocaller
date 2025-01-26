@@ -4,7 +4,7 @@ import Video from "../components/Video";
 
 const App = () => {
   return (
-    <div className="p-2">
+    <div className="p-2 home-page">
       <img
         className="z-[-1] w-full h-full object-cover absolute top-0 left-0 opacity-[0.05]"
         src="/assets/bg.svg"

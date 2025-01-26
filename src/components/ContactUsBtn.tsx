@@ -1,6 +1,6 @@
 const ContactUsBtn = () => {
   return (
-    <div className="hidden md:block">
+    <div>
       <a
         target="_blank"
         href="https://mail.google.com/mail/?view=cm&fs=1&to=business@fotocaller@gmail.com"

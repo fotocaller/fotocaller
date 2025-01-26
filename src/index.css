@@ -24,3 +24,21 @@ body {
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2f4156;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}

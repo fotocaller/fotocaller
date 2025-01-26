@@ -35,7 +35,7 @@ const ReadyToBook = () => {
   }, []);
 
   return (
-    <div className="p-10 my-20">
+    <div className="p-10 my-20 download-page">
       <BulletPoint
         bulletColor="navy"
         textColor="navy"
