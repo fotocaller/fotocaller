@@ -42,7 +42,10 @@ const WhyFotoCaller = () => {
         text="Why Fotocaller?"
         textSize="3xl"
       />
-      <h3 ref={h3Ref} className="text-5xl w-[70%]">
+      <h3
+        ref={h3Ref}
+        className="text-2xl xs:text-3xl sm:text-5xl w-[90%] md:w-[70%]"
+      >
         Fotocaller is your ultimate platform for hiring skilled photographers
         for any occasion. Whether it’s a wedding, corporate event, family
         portrait, or product shoot, we connect you with trusted professionals

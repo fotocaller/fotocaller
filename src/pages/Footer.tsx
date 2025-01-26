@@ -19,7 +19,7 @@ const Footer = () => {
       <div>
         <h5 className="text-grey">Social Media</h5>
         <h4 className="text-white text-2xl">Instagram</h4>
-        <h4 className="text-white text-2xl">Twittter</h4>
+        <h4 className="text-white text-2xl">Twitter</h4>
         <h4 className="text-white text-2xl">YouTube</h4>
       </div>
       <div>

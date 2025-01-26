@@ -42,7 +42,10 @@ const ReadyToBook = () => {
         text="Ready to Book Your Perfect Photographer?"
         textSize="3xl"
       />
-      <h3 ref={h3Ref} className="text-5xl w-[70%] my-10">
+      <h3
+        ref={h3Ref}
+        className="text-2xl xs:text-3xl sm:text-5xl w-[90%] md:w-[70%] my-10"
+      >
         With Fotocaller, finding the perfect photographer is no longer a hassle.
         Whether it’s your wedding day, a family gathering, or a corporate event,
         we’ve got professionals ready to capture every detail. From booking to
