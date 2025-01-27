@@ -1,5 +1,6 @@
 {
   "name": "fotocaller-website",
+  "homepage": "https://fotocaller.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
