@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ContactUsBtn from "../components/ContactUsBtn";
 
 const Footer = () => {
@@ -69,6 +70,14 @@ const Footer = () => {
           >
             Download Now
           </a>
+          <Link to="/privacy_policy">
+            <a
+              onClick={() => scrollToSection(".download-page")}
+              className="text-white text-2xl block cursor-pointer"
+            >
+              Privacy Policy
+            </a>
+          </Link>
         </div>
       </div>
       <p className="absolute text-grey bottom-10 left-10 hidden md:block">
