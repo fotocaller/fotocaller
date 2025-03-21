@@ -70,13 +70,12 @@ const Footer = () => {
           >
             Download Now
           </a>
-          <Link to="/privacy_policy">
-            <a
-              onClick={() => scrollToSection(".download-page")}
-              className="text-white text-2xl block cursor-pointer"
-            >
-              Privacy Policy
-            </a>
+          <Link
+            to="/policy"
+            onClick={() => scrollToSection(".download-page")}
+            className="text-white text-2xl block cursor-pointer"
+          >
+            Privacy Policy
           </Link>
         </div>
       </div>
