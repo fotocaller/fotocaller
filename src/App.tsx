@@ -21,7 +21,7 @@ function App() {
               <Footer />
             </>
           } />
-          <Route path="/privacy_policy" element={
+          <Route path="/policy" element={
             <Policy/>
           }/>
         </Routes>
